@@ -1,5 +1,8 @@
 import React from 'react';
 
-export default () => {
-    return <h1>Hello World!</h1>
-};
+const Greeting = () =>{
+    
+        return <h1>Hello World!</h1>
+}
+
+export default Greeting; 

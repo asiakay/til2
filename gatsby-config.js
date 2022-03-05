@@ -1,5 +1,5 @@
 module.exports = {
-    siteMetaData: {
+    siteMetadata: {
         title: `My Fashion Blog`,
         description: `This is my fashion blog where I write about fashion.`,
     },
@@ -7,7 +7,7 @@ module.exports = {
         {
             resolve: `gatsby-source-filesystem`,
             options: {
-                path: `{__dirname}/posts`,
+                path: `${__dirname}/posts`,
                 name: `posts`,
             },
         },
